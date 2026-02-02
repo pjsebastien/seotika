@@ -64,9 +64,9 @@ export function InteractiveQuiz({ title = 'Quiz de validation', questions }: Int
     setQuizCompleted(false);
   };
 
-  const calculateScore = () => {
-    return selectedAnswers.reduce((score, answer, index) => {
-      return answer === questions[index].correctIndex ? score + 1 : score;
+  const calculateScore = (): number => {
+    return selectedAnswers.reduce<number>((acc, answer, index) => {
+      return answer === questions[index].correctIndex ? acc + 1 : acc;
     }, 0);
   };
 

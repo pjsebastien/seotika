@@ -14,7 +14,9 @@
       "Bash(ls:*)",
       "Bash(find:*)",
       "Bash(git add:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit - SEOtika 2026 Formation SEO complète\n\nSite de formation SEO avec Next.js 14, contenu premium incluant:\n- 13 modules de formation complets\n- Études de cas, exercices et quiz interactifs\n- Architecture en cluster thématique\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
