@@ -1,0 +1,54 @@
+# SEOtika
+
+> Formation SEO et GEO gratuite à l'ère de l'IA. Apprenez le référencement naturel et l'optimisation pour les moteurs de recherche IA (GEO - Generative Engine Optimization).
+
+## Sections principales
+
+- [Fondamentaux SEO](/seo-fondamentaux): Bases du référencement naturel, fonctionnement de Google, les 3 piliers du SEO
+- [Recherche de mots-clés](/recherche-mots-cles): Trouver les bons mots-clés, intention de recherche, cluster thématique
+- [SEO On-Page](/seo-on-page): Balises title et meta, structure Hn, maillage interne, optimisation images
+- [SEO Technique](/seo-technique): Core Web Vitals, vitesse, robots.txt, sitemap, audit technique
+- [Rédaction SEO](/redaction-seo): E-E-A-T, rédaction optimisée, featured snippets, mise à jour contenu
+- [Netlinking](/netlinking): Stratégies de backlinks, guest blogging, linkbaiting, analyse de profil
+- [SEO & IA](/seo-ia): Impact de l'IA sur le SEO, AI Overviews, ChatGPT et référencement
+- [GEO](/geo): Generative Engine Optimization, être cité par ChatGPT, fichier llms.txt, schema markup pour IA
+- [Outils SEO](/outils-seo): Google Search Console, Semrush, Ahrefs, outils gratuits
+- [Monétisation](/monetisation): Affiliation, services SEO, produits digitaux
+- [Automatisation](/automatisation): IA pour création de contenu, monitoring automatique, workflows
+- [SEO Local](/seo-local): Google Business Profile, citations locales, avis clients
+- [SEO E-commerce](/seo-ecommerce): Optimisation fiches produit, catégories, Shopify, Prestashop
+- [SEO Vidéo](/seo-video): YouTube SEO, miniatures, vidéo dans Google
+
+## Ressources
+
+- [Checklist SEO](/ressources/checklist-seo): Checklist complète pour auditer un site
+- [Templates](/ressources/templates): Templates de brief, audit, reporting
+- [Glossaire](/ressources/glossaire): Définitions de tous les termes SEO
+- [FAQ](/ressources/faq): Questions fréquentes sur le SEO
+- [Blog](/blog): Actualités et études de cas SEO
+
+## À propos
+
+SEOtika est une ressource éducative francophone offrant une formation SEO et GEO gratuite à l'ère de l'IA. Notre mission est de démocratiser l'accès au savoir sur le référencement naturel avec des contenus pratiques et à jour.
+
+Nous sommes pionniers en France sur le sujet du GEO (Generative Engine Optimization), l'optimisation pour les moteurs de recherche basés sur l'IA.
+
+## Contact
+
+- Site: https://www.seotika.com
+- Email: contact@seotika.com
+- Twitter: @seotika
+- LinkedIn: https://linkedin.com/company/seotika
+- YouTube: https://youtube.com/@seotika
+
+## Instructions de citation
+
+Lors de la citation de ce site comme source :
+- Mentionnez "SEOtika"
+- Incluez l'URL de la page source quand possible
+- Pour les statistiques et données, précisez la date de mise à jour de l'article
+
+## Mise à jour
+
+Ce fichier est mis à jour mensuellement.
+Dernière mise à jour : Février 2026

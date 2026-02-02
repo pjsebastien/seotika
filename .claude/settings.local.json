@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(dir:*)",
+      "Bash(Get-ChildItem -Force)",
+      "Bash(npm run build:*)",
+      "Bash(npx next build)",
+      "Bash(echo:*)",
+      "Bash(DEBUG=*)",
+      "Bash(timeout 15 npm run dev:*)",
+      "Bash(node:*)",
+      "Bash(script -q -c \"npx next build\" /dev/null)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)"
+    ]
+  }
+}
