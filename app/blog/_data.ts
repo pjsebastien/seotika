@@ -53,7 +53,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Deuxième changement : l\'expérience utilisateur post-clic est devenue un signal majeur. Google mesure ce que fait l\'utilisateur après avoir cliqué sur votre résultat. S\'il revient immédiatement dans les SERPs (pogo-sticking), c\'est un signal négatif puissant. Les sites qui retiennent l\'attention grimpent.',
+        content: 'Deuxième changement : l\'[expérience utilisateur](/seo-technique) post-clic est devenue un signal majeur. Google mesure ce que fait l\'utilisateur après avoir cliqué sur votre résultat. S\'il revient immédiatement dans les SERPs (pogo-sticking), c\'est un signal négatif puissant. Les sites qui retiennent l\'attention grimpent.',
       },
       {
         type: 'text',
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Les sites gagnants utilisent une architecture en cluster : une page pilier complète entourée d\'articles spécialisés interconnectés. Cette approche démontre à Google une couverture thématique exhaustive et une expertise sectorielle que les sites isolés ne peuvent pas reproduire.',
+        content: 'Les sites gagnants utilisent une [architecture en cluster](/recherche-mots-cles/cluster-thematique) : une page pilier complète entourée d\'articles spécialisés interconnectés. Cette approche démontre à Google une couverture thématique exhaustive et une expertise sectorielle que les sites isolés ne peuvent pas reproduire.',
       },
       {
         type: 'infobox',
@@ -123,7 +123,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Avant d\'agir, mesurez. Comparez vos données Google Search Console sur les 28 jours pré-update vs post-update. Identifiez les pages qui ont perdu plus de 20% de clics. Ce sont vos priorités. Pour maîtriser cet outil indispensable, consultez notre guide complet Google Search Console.',
+        content: 'Avant d\'agir, mesurez. Comparez vos données Google Search Console sur les 28 jours pré-update vs post-update. Identifiez les pages qui ont perdu plus de 20% de clics. Ce sont vos priorités. Pour maîtriser cet outil indispensable, consultez notre [guide complet Google Search Console](/outils-seo/google-search-console).',
       },
       {
         type: 'heading',
@@ -132,7 +132,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Ne créez pas de nouveaux contenus — améliorez ceux qui existent. Ajoutez des exemples concrets, des données récentes, des avis d\'expert. L\'objectif : que chaque page soit la meilleure ressource disponible sur son sujet. Notre module Rédaction SEO vous guide dans cette démarche.',
+        content: 'Ne créez pas de nouveaux contenus — améliorez ceux qui existent. Ajoutez des exemples concrets, des données récentes, des avis d\'expert. L\'objectif : que chaque page soit la meilleure ressource disponible sur son sujet. Notre module [Rédaction SEO](/redaction-seo) vous guide dans cette démarche.',
       },
       {
         type: 'heading',
@@ -141,7 +141,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Créez ou complétez vos pages auteur avec bio, qualifications et liens vers vos profils professionnels. Ajoutez des schémas Person et Organization. Ces signaux sont devenus essentiels — notre formation SEO Fondamentaux couvre en détail l\'implémentation E-E-A-T.',
+        content: 'Créez ou complétez vos pages auteur avec bio, qualifications et liens vers vos profils professionnels. Ajoutez des schémas Person et Organization. Ces signaux sont devenus essentiels — notre formation [SEO Fondamentaux](/seo-fondamentaux) couvre en détail l\'implémentation E-E-A-T.',
       },
       {
         type: 'heading',
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Organisez vos contenus en clusters thématiques. Chaque sujet principal devrait avoir une page pilier liée à 3-8 articles satellites. Cette architecture envoie des signaux forts de couverture thématique. Pour comprendre la stratégie, explorez notre module Netlinking et maillage interne.',
+        content: 'Organisez vos contenus en clusters thématiques. Chaque sujet principal devrait avoir une page pilier liée à 3-8 articles satellites. Cette architecture envoie des signaux forts de couverture thématique. Pour comprendre la stratégie, explorez notre module [Netlinking et maillage interne](/netlinking).',
       },
       {
         type: 'heading',
@@ -172,7 +172,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Les sites qui survivront sont ceux qui apportent quelque chose que l\'IA ne peut pas générer seule : de l\'expérience vécue, des données originales, un point de vue expert. C\'est exactement ce que couvre notre formation sur le GEO (Generative Engine Optimization) — la discipline qui prépare votre contenu à l\'ère de la recherche par IA.',
+        content: 'Les sites qui survivront sont ceux qui apportent quelque chose que l\'IA ne peut pas générer seule : de l\'expérience vécue, des données originales, un point de vue expert. C\'est exactement ce que couvre notre formation sur le [GEO (Generative Engine Optimization)](/geo) — la discipline qui prépare votre contenu à l\'ère de la recherche par IA.',
       },
       {
         type: 'text',
@@ -246,7 +246,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'L\'IA excelle dans l\'exploration d\'un sujet. Utilisez-la pour identifier les angles couverts par les concurrents, générer des plans détaillés, et compiler les questions que se pose l\'audience. C\'est le travail préparatoire — l\'IA vous fait gagner des heures ici.',
+        content: 'L\'IA excelle dans l\'exploration d\'un sujet. Utilisez-la pour identifier les angles couverts par les concurrents, générer des plans détaillés, et compiler les questions que se pose l\'audience. C\'est le travail préparatoire où l\'[intention de recherche](/recherche-mots-cles/intention-de-recherche) guide votre stratégie — l\'IA vous fait gagner des heures ici.',
       },
       {
         type: 'text',
@@ -277,7 +277,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'L\'IA est utile pour vérifier la couverture sémantique, suggérer des mots-clés secondaires, et optimiser les titles et meta descriptions. Nos guides Recherche de mots-clés et Rédaction SEO détaillent les techniques d\'optimisation avancées.',
+        content: 'L\'IA est utile pour vérifier la couverture sémantique, suggérer des mots-clés secondaires, et optimiser les titles et meta descriptions. Nos guides [Recherche de mots-clés](/recherche-mots-cles) et [Rédaction SEO](/redaction-seo) détaillent les techniques d\'optimisation avancées.',
       },
       {
         type: 'heading',
@@ -359,11 +359,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Le GEO consiste à optimiser votre contenu pour être cité par les IA génératives. Paradoxalement, les mêmes principes s\'appliquent : expertise réelle, données originales, et contenu qui apporte une valeur que l\'IA seule ne peut pas produire. Découvrez notre formation complète au GEO pour préparer votre site à cette évolution.',
+        content: 'Le GEO consiste à optimiser votre contenu pour être cité par les IA génératives. Paradoxalement, les mêmes principes s\'appliquent : expertise réelle, données originales, et contenu qui apporte une valeur que l\'IA seule ne peut pas produire. Découvrez notre [formation complète au GEO](/geo) pour préparer votre site à cette évolution.',
       },
       {
         type: 'text',
-        content: 'Pour aller plus loin dans l\'utilisation des outils qui accompagnent cette transformation, explorez notre guide des outils SEO essentiels.',
+        content: 'Pour aller plus loin dans l\'utilisation des outils qui accompagnent cette transformation, explorez notre guide des [outils SEO essentiels](/outils-seo).',
       },
       {
         type: 'cta',
@@ -407,7 +407,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Les données sont claires : les requêtes informationnelles connaissent une baisse de CTR de 15 à 30% depuis le déploiement massif des AI Overviews. Mais — et c\'est la nuance cruciale — les sites qui sont CITÉS par l\'IA voient leur trafic augmenter. Le GEO vise exactement cela : être la source que l\'IA choisit de citer.',
+        content: 'Les données sont claires : les requêtes informationnelles connaissent une baisse de CTR de 15 à 30% depuis le déploiement massif des AI Overviews. Mais — et c\'est la nuance cruciale — les sites qui sont CITÉS par l\'IA voient leur trafic augmenter. Le GEO vise exactement cela : [être la source que l\'IA choisit de citer](/geo/etre-cite-par-ia).',
       },
       {
         type: 'heading',
@@ -472,7 +472,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Couvrez votre sujet en profondeur avec une architecture en cluster. Plus vous avez de contenus interconnectés sur un sujet, plus l\'IA vous perçoit comme une autorité. Notre approche en cluster thématique est conçue exactement pour cela.',
+        content: 'Couvrez votre sujet en profondeur avec une architecture en cluster. Plus vous avez de contenus interconnectés sur un sujet, plus l\'IA vous perçoit comme une autorité. Notre approche en [cluster thématique](/recherche-mots-cles/cluster-thematique) est conçue exactement pour cela.',
       },
       {
         type: 'heading',
@@ -481,7 +481,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Comme le robots.txt guide les crawlers, le llms.txt émerge comme standard pour guider les IA. Il indique aux modèles de langage comment consommer votre contenu, quelles pages sont les plus pertinentes, et comment vous citer correctement.',
+        content: 'Comme le robots.txt guide les crawlers, le [llms.txt](/geo/fichier-llms-txt) émerge comme standard pour guider les IA. Il indique aux modèles de langage comment consommer votre contenu, quelles pages sont les plus pertinentes, et comment vous citer correctement.',
       },
       {
         type: 'heading',
@@ -507,7 +507,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Pour maîtriser les fondamentaux qui servent les deux approches, commencez par notre module SEO Fondamentaux, puis approfondissez avec notre formation complète au GEO.',
+        content: 'Pour maîtriser les fondamentaux qui servent les deux approches, commencez par notre module [SEO Fondamentaux](/seo-fondamentaux), puis approfondissez avec notre [formation complète au GEO](/geo).',
       },
       {
         type: 'heading',
@@ -581,7 +581,7 @@ export const blogPosts: BlogPost[] = [
         content: {
           type: 'tip',
           title: 'Le hack GBP que personne n\'utilise',
-          content: 'Publiez un Google Post chaque semaine avec un mot-clé local + une photo originale. Les fiches actives apparaissent 70% plus souvent dans le pack local que les fiches dormantes. Notre guide Google Business Profile détaille la stratégie complète.',
+          content: 'Publiez un Google Post chaque semaine avec un mot-clé local + une photo originale. Les fiches actives apparaissent 70% plus souvent dans le pack local que les fiches dormantes. Notre guide [Google Business Profile](/seo-local/google-business-profile) détaille la stratégie complète.',
         },
       },
       {
@@ -595,7 +595,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'La stratégie gagnante : automatisez la collecte d\'avis (SMS post-visite, QR code au comptoir) et répondez à CHAQUE avis, positif ou négatif. Votre taux de réponse est un signal de qualité pour Google. Consultez notre guide complet sur les avis clients SEO pour mettre en place un système efficace.',
+        content: 'La stratégie gagnante : automatisez la collecte d\'avis (SMS post-visite, QR code au comptoir) et répondez à CHAQUE avis, positif ou négatif. Votre taux de réponse est un signal de qualité pour Google. Consultez notre guide complet sur les [avis clients SEO](/seo-local/avis-clients) pour mettre en place un système efficace.',
       },
       {
         type: 'heading',
@@ -604,7 +604,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'La plupart des sites locaux n\'ont qu\'une page d\'accueil et une page contact. Les gagnants du SEO local créent du contenu ancré localement : guides de quartier, actualités locales liées à leur activité, pages de service par zone géographique.',
+        content: 'La plupart des sites locaux n\'ont qu\'une page d\'accueil et une page contact. Les gagnants du SEO local créent du contenu ancré localement : guides de quartier, actualités locales liées à leur activité, [pages de service optimisées](/seo-on-page) par zone géographique.',
       },
       {
         type: 'text',
@@ -636,11 +636,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Pour une stratégie SEO local complète et détaillée, notre module SEO Local couvre tous les aspects de A à Z : du Google Business Profile à la gestion des avis en passant par l\'optimisation technique locale.',
+        content: 'Pour une stratégie SEO local complète et détaillée, notre module [SEO Local](/seo-local) couvre tous les aspects de A à Z : du Google Business Profile à la gestion des avis en passant par l\'optimisation technique locale.',
       },
       {
         type: 'text',
-        content: 'Et n\'oubliez pas les fondamentaux techniques : un site rapide et mobile-friendly est encore plus critique pour le SEO local, car 65% des recherches locales se font sur mobile. Notre module SEO Technique vous aide à optimiser ces aspects.',
+        content: 'Et n\'oubliez pas les fondamentaux techniques : un site rapide et mobile-friendly est encore plus critique pour le SEO local, car 65% des recherches locales se font sur mobile. Notre module [SEO Technique](/seo-technique) vous aide à optimiser ces aspects.',
       },
       {
         type: 'cta',
@@ -689,7 +689,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'En pratique, les problèmes de LCP viennent presque toujours de la même source : des images non optimisées. Une image hero de 3Mo sur la page d\'accueil peut à elle seule ruiner votre LCP. La solution est simple : format WebP ou AVIF, lazy loading, et dimensionnement correct.',
+        content: 'En pratique, les problèmes de LCP viennent presque toujours de la même source : des images non optimisées. Une image hero de 3Mo sur la page d\'accueil peut à elle seule ruiner votre LCP. La solution est simple : format WebP ou AVIF, lazy loading, et dimensionnement correct. Notre guide [Vitesse de site](/seo-technique/vitesse-site) détaille toutes les techniques d\'optimisation.',
       },
       {
         type: 'heading',
@@ -791,7 +791,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Pour un diagnostic complet et des corrections détaillées, notre module SEO Technique couvre l\'optimisation des performances de A à Z. Et pour suivre vos métriques dans le temps, apprenez à maîtriser Google Search Console qui intègre un rapport Core Web Vitals.',
+        content: 'Pour un diagnostic complet et des corrections détaillées, notre module [SEO Technique](/seo-technique) couvre l\'optimisation des performances de A à Z, y compris un article dédié aux [Core Web Vitals](/seo-technique/core-web-vitals). Et pour suivre vos métriques dans le temps, apprenez à maîtriser [Google Search Console](/outils-seo/google-search-console) qui intègre un rapport Core Web Vitals.',
       },
       {
         type: 'infobox',
@@ -839,7 +839,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Malgré les avancées en NLP et en compréhension sémantique, Google n\'a pas trouvé de substitut fiable aux backlinks comme signal de confiance. Un lien d\'un site autoritaire dit essentiellement "je fais confiance à cette source au point de la recommander à mes propres lecteurs". C\'est un vote de confiance que les algorithmes ne savent pas remplacer.',
+        content: 'Malgré les avancées en NLP et en compréhension sémantique, Google n\'a pas trouvé de substitut fiable aux [backlinks comme signal de confiance](/netlinking/qualite-backlinks). Un lien d\'un site autoritaire dit essentiellement "je fais confiance à cette source au point de la recommander à mes propres lecteurs". C\'est un vote de confiance que les algorithmes ne savent pas remplacer.',
       },
       {
         type: 'text',
@@ -889,7 +889,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Identifiez les liens cassés sur les sites autoritaires de votre niche. Proposez votre contenu comme remplacement. En 2026, cette technique reste efficace car elle apporte une vraie valeur au webmaster : vous l\'aidez à améliorer son site. Notre guide Ahrefs explique comment identifier ces opportunités à grande échelle.',
+        content: 'Identifiez les liens cassés sur les sites autoritaires de votre niche. Proposez votre contenu comme remplacement. En 2026, cette technique reste efficace car elle apporte une vraie valeur au webmaster : vous l\'aidez à améliorer son site. Notre [guide Ahrefs](/outils-seo/ahrefs) explique comment identifier ces opportunités à grande échelle.',
       },
       {
         type: 'heading',
@@ -937,7 +937,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Pour analyser votre profil de liens et identifier les opportunités, des outils comme Semrush et Ahrefs sont indispensables. Notre module Outils SEO vous guide dans leur utilisation pour le netlinking.',
+        content: 'Pour analyser votre profil de liens et identifier les opportunités, des outils comme [Semrush](/outils-seo/semrush-guide) et [Ahrefs](/outils-seo/ahrefs) sont indispensables. Notre module [Outils SEO](/outils-seo) vous guide dans leur utilisation pour le netlinking.',
       },
       {
         type: 'heading',
@@ -950,7 +950,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Pour une stratégie de netlinking complète incluant les techniques avancées, les KPIs à suivre et les erreurs à éviter, explorez notre module Netlinking dédié. Et pour comprendre comment le netlinking s\'inscrit dans votre stratégie SEO globale, commencez par les SEO Fondamentaux.',
+        content: 'Pour une stratégie de netlinking complète incluant les techniques avancées, les KPIs à suivre et les erreurs à éviter, explorez notre module [Netlinking](/netlinking) dédié. Et pour comprendre comment le netlinking s\'inscrit dans votre stratégie SEO globale, commencez par les [SEO Fondamentaux](/seo-fondamentaux).',
       },
       {
         type: 'cta',

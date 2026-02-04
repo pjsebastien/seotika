@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { ContentSection, TableData, CodeData, InfoBoxData, CTAData, QuizData } from '@/types';
 import { InfoBox } from './InfoBox';
 import { InlineCTA } from '@/components/conversion/InlineCTA';
@@ -5,6 +6,41 @@ import { InteractiveQuiz } from './InteractiveQuiz';
 
 interface ContentRendererProps {
   content: ContentSection[];
+}
+
+function renderTextWithLinks(text: string): React.ReactNode {
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    const [, linkText, href] = match;
+    const isInternal = href.startsWith('/');
+    if (isInternal) {
+      parts.push(
+        <Link key={match.index} href={href} className="text-primary hover:underline">
+          {linkText}
+        </Link>
+      );
+    } else {
+      parts.push(
+        <a key={match.index} href={href} className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">
+          {linkText}
+        </a>
+      );
+    }
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return parts.length === 1 && typeof parts[0] === 'string' ? parts[0] : parts;
 }
 
 function slugifyHeading(text: string): string {
@@ -24,7 +60,7 @@ export function ContentRenderer({ content }: ContentRendererProps) {
           case 'text':
             return (
               <p key={index} className="mb-4">
-                {section.content as string}
+                {renderTextWithLinks(section.content as string)}
               </p>
             );
 
