@@ -83,6 +83,18 @@
     @apply prose-a:text-primary prose-a:no-underline hover:prose-a:underline;
     @apply prose-code:before:content-none prose-code:after:content-none;
     @apply prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded;
+    @apply prose-pre:bg-slate-900 prose-pre:text-slate-50;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* Reset code styling inside pre blocks - prevent bg-muted from overriding */
+  .prose-custom pre code {
+    background-color: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    color: inherit !important;
+    font-size: inherit !important;
   }
 
   .gradient-text {
@@ -151,14 +163,23 @@
 /* Code blocks */
 .code-block {
   @apply relative rounded-lg overflow-hidden;
+  max-width: 100%;
 }
 
 .code-block pre {
   @apply p-4 overflow-x-auto text-sm;
+  background-color: rgb(15 23 42) !important;
+  color: rgb(248 250 252) !important;
 }
 
 .code-block .copy-button {
   @apply absolute top-2 right-2 p-2 rounded bg-muted/50 hover:bg-muted transition-colors;
+}
+
+/* Ensure prose pre always has dark bg in both modes */
+.prose-custom pre {
+  background-color: rgb(15 23 42) !important;
+  color: rgb(248 250 252) !important;
 }
 
 /* FAQ accordion */
@@ -189,6 +210,23 @@
 
 .info-box.success {
   @apply bg-emerald-50 border-emerald-500 dark:bg-emerald-950;
+}
+
+/* Mobile overflow protection */
+.prose-custom table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prose-custom pre {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prose-custom img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Scrollbar styling */

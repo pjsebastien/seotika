@@ -56,6 +56,10 @@ export const metadata: Metadata = {
     images: [siteConfig.ogImage],
     creator: "@seotika",
   },
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
   robots: {
     index: true,
     follow: true,

@@ -5,6 +5,7 @@ import { Breadcrumb } from '@/components/layout/Breadcrumb';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { NewsletterForm } from '@/components/conversion/NewsletterForm';
+import { blogPosts } from './_data';
 
 export const metadata: Metadata = {
   title: 'Blog SEO - Actualités et Conseils | SEOtika',
@@ -13,57 +14,6 @@ export const metadata: Metadata = {
     canonical: 'https://www.seotika.com/blog',
   },
 };
-
-const blogPosts = [
-  {
-    slug: 'google-update-2026',
-    title: 'Google Core Update Janvier 2026 : Ce Qui Change',
-    excerpt: 'Analyse complète de la mise à jour de janvier 2026 et son impact sur le classement des sites.',
-    date: '2026-01-28',
-    readingTime: 8,
-    category: 'Actualités',
-  },
-  {
-    slug: 'ia-contenu-seo-2026',
-    title: 'IA et Contenu SEO : Les Bonnes Pratiques en 2026',
-    excerpt: 'Comment utiliser l\'IA pour créer du contenu qui performe tout en restant authentique.',
-    date: '2026-01-25',
-    readingTime: 12,
-    category: 'Guide',
-  },
-  {
-    slug: 'geo-revolution-recherche',
-    title: 'GEO : La Révolution de la Recherche par IA',
-    excerpt: 'Comprendre le Generative Engine Optimization et préparer son site pour l\'avenir.',
-    date: '2026-01-20',
-    readingTime: 10,
-    category: 'Tendances',
-  },
-  {
-    slug: 'seo-local-2026',
-    title: 'SEO Local en 2026 : Stratégies Gagnantes',
-    excerpt: 'Les meilleures pratiques pour dominer les résultats locaux et Google Maps.',
-    date: '2026-01-15',
-    readingTime: 9,
-    category: 'Guide',
-  },
-  {
-    slug: 'core-web-vitals-importance',
-    title: 'Core Web Vitals : Pourquoi C\'est Plus Important Que Jamais',
-    excerpt: 'L\'expérience utilisateur est devenue un facteur SEO majeur. Voici comment l\'optimiser.',
-    date: '2026-01-10',
-    readingTime: 7,
-    category: 'Technique',
-  },
-  {
-    slug: 'netlinking-ethique',
-    title: 'Netlinking Éthique : Construire des Liens en 2026',
-    excerpt: 'Stratégies de link building qui fonctionnent sans risquer de pénalité.',
-    date: '2026-01-05',
-    readingTime: 11,
-    category: 'Guide',
-  },
-];
 
 const categories = ['Tous', 'Actualités', 'Guide', 'Tendances', 'Technique'];
 
@@ -100,41 +50,43 @@ export default function BlogPage() {
       {/* Blog Posts Grid */}
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-16">
         {blogPosts.map((post) => (
-          <Card key={post.slug} className="hover:shadow-md transition-shadow flex flex-col">
-            <CardHeader className="pb-2">
-              <div className="flex items-center justify-between mb-2">
-                <Badge variant="outline" className="text-xs">
-                  {post.category}
-                </Badge>
-                <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                  <Clock className="h-3 w-3" />
-                  {post.readingTime} min
+          <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+            <Card className="hover:shadow-md transition-shadow flex flex-col h-full">
+              <CardHeader className="pb-2">
+                <div className="flex items-center justify-between mb-2">
+                  <Badge variant="outline" className="text-xs">
+                    {post.category}
+                  </Badge>
+                  <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                    <Clock className="h-3 w-3" />
+                    {post.readingTime} min
+                  </div>
                 </div>
-              </div>
-              <CardTitle className="text-lg line-clamp-2">
-                {post.title}
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="flex-1 flex flex-col">
-              <p className="text-sm text-muted-foreground line-clamp-3 mb-4 flex-1">
-                {post.excerpt}
-              </p>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-1 text-xs text-muted-foreground">
-                  <Calendar className="h-3 w-3" />
-                  {new Date(post.date).toLocaleDateString('fr-FR', {
-                    day: 'numeric',
-                    month: 'long',
-                    year: 'numeric',
-                  })}
+                <CardTitle className="text-lg line-clamp-2 group-hover:text-primary transition-colors">
+                  {post.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="flex-1 flex flex-col">
+                <p className="text-sm text-muted-foreground line-clamp-3 mb-4 flex-1">
+                  {post.excerpt}
+                </p>
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                    <Calendar className="h-3 w-3" />
+                    {new Date(post.date).toLocaleDateString('fr-FR', {
+                      day: 'numeric',
+                      month: 'long',
+                      year: 'numeric',
+                    })}
+                  </div>
+                  <span className="text-sm text-primary font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                    Lire
+                    <ArrowRight className="h-3 w-3" />
+                  </span>
                 </div>
-                <span className="text-sm text-primary font-medium inline-flex items-center gap-1 hover:gap-2 transition-all cursor-pointer">
-                  Lire
-                  <ArrowRight className="h-3 w-3" />
-                </span>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </Link>
         ))}
       </div>
 

@@ -47,7 +47,7 @@ export function ClusterArticlePage({ article, cluster }: ClusterArticlePageProps
         />
 
         <div className="grid lg:grid-cols-[1fr_280px] gap-8">
-          <article>
+          <article className="min-w-0">
             <ArticleHeader
               article={article}
               clusterName={cluster.name}

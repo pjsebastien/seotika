@@ -76,7 +76,7 @@ export function ClusterPage({ cluster }: ClusterPageProps) {
         <Breadcrumb items={[{ label: cluster.name, href: `/${cluster.slug}` }]} />
 
         <div className="grid lg:grid-cols-[1fr_300px] gap-8">
-          <article>
+          <article className="min-w-0">
             <ArticleHeader
               article={pillarPage}
               clusterName={cluster.name}
@@ -161,7 +161,7 @@ export function ClusterPage({ cluster }: ClusterPageProps) {
             />
           </article>
 
-          <aside className="space-y-6">
+          <aside className="hidden lg:block space-y-6">
             <div className="sticky-toc">
               <NewsletterForm
                 title="Newsletter SEO"

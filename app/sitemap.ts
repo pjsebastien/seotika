@@ -14,6 +14,7 @@ import { clusterData as seoLocalCluster } from './seo-local/_data';
 import { clusterData as seoEcommerceCluster } from './seo-ecommerce/_data';
 import { clusterData as seoVideoCluster } from './seo-video/_data';
 import { ClusterConfig } from '@/types';
+import { blogPosts } from './blog/_data';
 
 const baseUrl = 'https://www.seotika.com';
 
@@ -134,5 +135,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Generate all cluster pages (pillar + children)
   const clusterPages = allClusters.flatMap(generateClusterPages);
 
-  return [...staticPages, ...clusterPages];
+  // Blog article pages
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...clusterPages, ...blogPages];
 }
