@@ -31,7 +31,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Nous avons analysé les données de plus de 500 sites francophones pour comprendre qui gagne, qui perd, et surtout pourquoi. Voici ce que nous avons découvert — et les actions que vous pouvez prendre dès maintenant.',
+        content: 'Nous avons analysé les données de plus de 500 sites francophones pour comprendre qui gagne, qui perd, et surtout pourquoi. Voici ce que nous avons découvert, et les actions que vous pouvez prendre dès maintenant.',
       },
       {
         type: 'heading',
@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Contrairement aux updates précédentes qui ciblaient principalement le spam ou le contenu de faible qualité, la January 2026 Core Update redéfinit la notion même de "contenu pertinent". Google ne se contente plus de vérifier si votre page contient les bons mots-clés — il évalue si votre contenu résout réellement le problème de l\'utilisateur.',
+        content: 'Contrairement aux updates précédentes qui ciblaient principalement le spam ou le contenu de faible qualité, la January 2026 Core Update redéfinit la notion même de "contenu pertinent". Google ne se contente plus de vérifier si votre page contient les bons mots-clés, il évalue si votre contenu résout réellement le problème de l\'utilisateur.',
       },
       {
         type: 'heading',
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Les gagnants ne se contentent pas de répondre à la question. Ils anticipent la question suivante. Par exemple, un article sur "comment créer un sitemap" qui performe post-update ne s\'arrête pas aux instructions techniques — il explique aussi quand NE PAS utiliser de sitemap, les erreurs courantes qui gaspillent le crawl budget, et comment vérifier que Google utilise effectivement votre sitemap.',
+        content: 'Les gagnants ne se contentent pas de répondre à la question. Ils anticipent la question suivante. Par exemple, un article sur "comment créer un sitemap" qui performe post-update ne s\'arrête pas aux instructions techniques, il explique aussi quand NE PAS utiliser de sitemap, les erreurs courantes qui gaspillent le crawl budget, et comment vérifier que Google utilise effectivement votre sitemap.',
       },
       {
         type: 'heading',
@@ -132,7 +132,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Ne créez pas de nouveaux contenus — améliorez ceux qui existent. Ajoutez des exemples concrets, des données récentes, des avis d\'expert. L\'objectif : que chaque page soit la meilleure ressource disponible sur son sujet. Notre module [Rédaction SEO](/redaction-seo) vous guide dans cette démarche.',
+        content: 'Ne créez pas de nouveaux contenus, améliorez ceux qui existent. Ajoutez des exemples concrets, des données récentes, des avis d\'expert. L\'objectif : que chaque page soit la meilleure ressource disponible sur son sujet. Notre module [Rédaction SEO](/redaction-seo) vous guide dans cette démarche.',
       },
       {
         type: 'heading',
@@ -141,7 +141,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Créez ou complétez vos pages auteur avec bio, qualifications et liens vers vos profils professionnels. Ajoutez des schémas Person et Organization. Ces signaux sont devenus essentiels — notre formation [SEO Fondamentaux](/seo-fondamentaux) couvre en détail l\'implémentation E-E-A-T.',
+        content: 'Créez ou complétez vos pages auteur avec bio, qualifications et liens vers vos profils professionnels. Ajoutez des schémas Person et Organization. Ces signaux sont devenus essentiels, notre formation [SEO Fondamentaux](/seo-fondamentaux) couvre en détail l\'implémentation E-E-A-T.',
       },
       {
         type: 'heading',
@@ -172,7 +172,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Les sites qui survivront sont ceux qui apportent quelque chose que l\'IA ne peut pas générer seule : de l\'expérience vécue, des données originales, un point de vue expert. C\'est exactement ce que couvre notre formation sur le [GEO (Generative Engine Optimization)](/geo) — la discipline qui prépare votre contenu à l\'ère de la recherche par IA.',
+        content: 'Les sites qui survivront sont ceux qui apportent quelque chose que l\'IA ne peut pas générer seule : de l\'expérience vécue, des données originales, un point de vue expert. C\'est exactement ce que couvre notre formation sur le [GEO (Generative Engine Optimization)](/geo), la discipline qui prépare votre contenu à l\'ère de la recherche par IA.',
       },
       {
         type: 'text',
@@ -203,7 +203,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: 'Soyons honnêtes : tout le monde utilise l\'IA pour créer du contenu en 2026. La vraie question n\'est plus "faut-il utiliser l\'IA ?" mais "comment l\'utiliser sans que votre site finisse dans la poubelle algorithmique de Google ?" Parce que oui, Google fait la différence — et les sites qui se sont contentés de publier du contenu IA brut en masse ont été décimés.',
+        content: 'Soyons honnêtes : tout le monde utilise l\'IA pour créer du contenu en 2026. La vraie question n\'est plus "faut-il utiliser l\'IA ?" mais "comment l\'utiliser sans que votre site finisse dans la poubelle algorithmique de Google ?" Parce que oui, Google fait la différence, et les sites qui se sont contentés de publier du contenu IA brut en masse ont été décimés.',
       },
       {
         type: 'text',
@@ -246,7 +246,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'L\'IA excelle dans l\'exploration d\'un sujet. Utilisez-la pour identifier les angles couverts par les concurrents, générer des plans détaillés, et compiler les questions que se pose l\'audience. C\'est le travail préparatoire où l\'[intention de recherche](/recherche-mots-cles/intention-de-recherche) guide votre stratégie — l\'IA vous fait gagner des heures ici.',
+        content: 'L\'IA excelle dans l\'exploration d\'un sujet. Utilisez-la pour identifier les angles couverts par les concurrents, générer des plans détaillés, et compiler les questions que se pose l\'audience. C\'est le travail préparatoire où l\'[intention de recherche](/recherche-mots-cles/intention-de-recherche) guide votre stratégie, l\'IA vous fait gagner des heures ici.',
       },
       {
         type: 'text',
@@ -268,7 +268,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'C\'est la phase critique. Ajoutez vos données propriétaires, vos captures d\'écran, vos études de cas. Intégrez des opinions tranchées basées sur votre expérience. Reformulez les passages trop "lisses" — le contenu IA a un style reconnaissable que vos lecteurs (et Google) détectent.',
+        content: 'C\'est la phase critique. Ajoutez vos données propriétaires, vos captures d\'écran, vos études de cas. Intégrez des opinions tranchées basées sur votre expérience. Reformulez les passages trop "lisses", le contenu IA a un style reconnaissable que vos lecteurs (et Google) détectent.',
       },
       {
         type: 'heading',
@@ -390,11 +390,11 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: 'En 2026, 40% des recherches Google affichent une réponse générée par IA avant les résultats traditionnels. Bing avec Copilot, Perplexity, ChatGPT avec recherche web — les moteurs de réponse IA grignotent le trafic organique classique. Ce n\'est pas une menace future : c\'est en train de se produire sous nos yeux.',
+        content: 'En 2026, 40% des recherches Google affichent une réponse générée par IA avant les résultats traditionnels. Bing avec Copilot, Perplexity, ChatGPT avec recherche web, les moteurs de réponse IA grignotent le trafic organique classique. Ce n\'est pas une menace future : c\'est en train de se produire sous nos yeux.',
       },
       {
         type: 'text',
-        content: 'Le GEO — Generative Engine Optimization — est la discipline qui émerge pour répondre à cette réalité. Si le SEO optimise votre visibilité dans les résultats de recherche classiques, le GEO optimise votre visibilité dans les réponses générées par IA. Et les règles du jeu sont fondamentalement différentes.',
+        content: 'Le GEO, Generative Engine Optimization, est la discipline qui émerge pour répondre à cette réalité. Si le SEO optimise votre visibilité dans les résultats de recherche classiques, le GEO optimise votre visibilité dans les réponses générées par IA. Et les règles du jeu sont fondamentalement différentes.',
       },
       {
         type: 'heading',
@@ -403,11 +403,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Imaginez : un utilisateur demande à Google "quel est le meilleur outil SEO pour un débutant ?". Avant, il voyait 10 liens bleus et cliquait sur 2-3 d\'entre eux. Aujourd\'hui, il voit d\'abord une réponse IA qui synthétise les meilleures sources — et dans 60% des cas, il ne clique sur aucun lien.',
+        content: 'Imaginez : un utilisateur demande à Google "quel est le meilleur outil SEO pour un débutant ?". Avant, il voyait 10 liens bleus et cliquait sur 2-3 d\'entre eux. Aujourd\'hui, il voit d\'abord une réponse IA qui synthétise les meilleures sources, et dans 60% des cas, il ne clique sur aucun lien.',
       },
       {
         type: 'text',
-        content: 'Les données sont claires : les requêtes informationnelles connaissent une baisse de CTR de 15 à 30% depuis le déploiement massif des AI Overviews. Mais — et c\'est la nuance cruciale — les sites qui sont CITÉS par l\'IA voient leur trafic augmenter. Le GEO vise exactement cela : [être la source que l\'IA choisit de citer](/geo/etre-cite-par-ia).',
+        content: 'Les données sont claires : les requêtes informationnelles connaissent une baisse de CTR de 15 à 30% depuis le déploiement massif des AI Overviews. Mais, et c\'est la nuance cruciale, les sites qui sont CITÉS par l\'IA voient leur trafic augmenter. Le GEO vise exactement cela : [être la source que l\'IA choisit de citer](/geo/etre-cite-par-ia).',
       },
       {
         type: 'heading',
@@ -416,7 +416,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'C\'est la question à un million. Et la réponse est différente du SEO classique. Les IA génératives ne classent pas des pages — elles synthétisent des informations. Elles cherchent des sources fiables, citables, et complémentaires.',
+        content: 'C\'est la question à un million. Et la réponse est différente du SEO classique. Les IA génératives ne classent pas des pages, elles synthétisent des informations. Elles cherchent des sources fiables, citables, et complémentaires.',
       },
       {
         type: 'heading',
@@ -503,7 +503,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Le SEO n\'est pas mort — il évolue. Les fondamentaux restent les mêmes : contenu de qualité, technique irréprochable, autorité. Le GEO ajoute une couche supplémentaire d\'optimisation. Les deux disciplines se renforcent mutuellement.',
+        content: 'Le SEO n\'est pas mort, il évolue. Les fondamentaux restent les mêmes : contenu de qualité, technique irréprochable, autorité. Le GEO ajoute une couche supplémentaire d\'optimisation. Les deux disciplines se renforcent mutuellement.',
       },
       {
         type: 'text',
@@ -547,7 +547,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: 'Le SEO local est devenu le champ de bataille le plus sous-estimé du référencement. Pendant que tout le monde se focalise sur les positions nationales, les entreprises locales qui maîtrisent leur SEO local récoltent un trafic ultra-qualifié avec une intention d\'achat immédiate. En 2026, les règles ont évolué — et la plupart des entreprises locales n\'ont pas suivi.',
+        content: 'Le SEO local est devenu le champ de bataille le plus sous-estimé du référencement. Pendant que tout le monde se focalise sur les positions nationales, les entreprises locales qui maîtrisent leur SEO local récoltent un trafic ultra-qualifié avec une intention d\'achat immédiate. En 2026, les règles ont évolué, et la plupart des entreprises locales n\'ont pas suivi.',
       },
       {
         type: 'heading',
@@ -556,7 +556,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: '46% des recherches Google ont une intention locale. "Restaurant près de moi", "plombier Paris 15", "dentiste ouvert samedi" — ces requêtes génèrent un trafic qui convertit 5 à 10× mieux que le trafic national. Et pourtant, 60% des entreprises locales n\'ont même pas revendiqué leur fiche Google Business Profile.',
+        content: '46% des recherches Google ont une intention locale. "Restaurant près de moi", "plombier Paris 15", "dentiste ouvert samedi", ces requêtes génèrent un trafic qui convertit 5 à 10× mieux que le trafic national. Et pourtant, 60% des entreprises locales n\'ont même pas revendiqué leur fiche Google Business Profile.',
       },
       {
         type: 'text',
@@ -591,7 +591,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'En 2026, ce n\'est plus le nombre d\'avis qui compte — c\'est leur qualité et leur récence. Un établissement avec 50 avis dont 20 dans les 3 derniers mois surpasse un concurrent avec 500 avis anciens. Google privilégie la fraîcheur.',
+        content: 'En 2026, ce n\'est plus le nombre d\'avis qui compte, c\'est leur qualité et leur récence. Un établissement avec 50 avis dont 20 dans les 3 derniers mois surpasse un concurrent avec 500 avis anciens. Google privilégie la fraîcheur.',
       },
       {
         type: 'text',
@@ -711,7 +711,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Le CLS mesure les sauts de page — quand des éléments bougent pendant le chargement. Vous savez, ce moment frustrant où vous allez cliquer sur un lien et une pub apparaît, déplaçant tout le contenu. Google déteste ça autant que vos utilisateurs.',
+        content: 'Le CLS mesure les sauts de page, quand des éléments bougent pendant le chargement. Vous savez, ce moment frustrant où vous allez cliquer sur un lien et une pub apparaît, déplaçant tout le contenu. Google déteste ça autant que vos utilisateurs.',
       },
       {
         type: 'text',
@@ -739,7 +739,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Les sites avec tous les CWV au vert ont une position moyenne 2.8× meilleure que ceux avec au moins un indicateur au rouge. Ce n\'est pas une coïncidence — c\'est une corrélation forte et répétable.',
+        content: 'Les sites avec tous les CWV au vert ont une position moyenne 2.8× meilleure que ceux avec au moins un indicateur au rouge. Ce n\'est pas une coïncidence, c\'est une corrélation forte et répétable.',
       },
       {
         type: 'heading',
@@ -769,7 +769,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: 'list',
         content: [
-          'Réduisez le nombre de scripts tiers (analytics, chat, tracking — chargez-les en async)',
+          'Réduisez le nombre de scripts tiers (analytics, chat, tracking, chargez-les en async)',
           'Désactivez les plugins JavaScript non essentiels',
           'Utilisez les attributs async ou defer sur tous les scripts',
           'Testez sans extensions navigateur (elles faussent les mesures)',
@@ -826,11 +826,11 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: 'text',
-        content: 'Le netlinking a la réputation d\'être le "dirty secret" du SEO. Achat de liens, PBN, échanges massifs — pendant des années, ces pratiques ont fonctionné. En 2026, elles sont devenues un pari perdant. Google est devenu trop intelligent pour être trompé, et les pénalités sont devenues plus sévères.',
+        content: 'Le netlinking a la réputation d\'être le "dirty secret" du SEO. Achat de liens, PBN, échanges massifs, pendant des années, ces pratiques ont fonctionné. En 2026, elles sont devenues un pari perdant. Google est devenu trop intelligent pour être trompé, et les pénalités sont devenues plus sévères.',
       },
       {
         type: 'text',
-        content: 'Mais les backlinks restent l\'un des 3 facteurs de classement les plus importants. Le défi n\'est pas d\'arrêter le netlinking — c\'est de le faire intelligemment. Voici les stratégies qui fonctionnent en 2026 sans mettre votre site en danger.',
+        content: 'Mais les backlinks restent l\'un des 3 facteurs de classement les plus importants. Le défi n\'est pas d\'arrêter le netlinking, c\'est de le faire intelligemment. Voici les stratégies qui fonctionnent en 2026 sans mettre votre site en danger.',
       },
       {
         type: 'heading',
@@ -857,7 +857,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Certains types de contenu attirent naturellement des backlinks. Ce ne sont pas vos articles de blog classiques — ce sont des ressources que les autres sites VEULENT citer.',
+        content: 'Certains types de contenu attirent naturellement des backlinks. Ce ne sont pas vos articles de blog classiques, ce sont des ressources que les autres sites VEULENT citer.',
       },
       {
         type: 'list',
@@ -876,7 +876,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'text',
-        content: 'Help A Reporter Out (HARO), Qwoted, Source Bottle — ces plateformes connectent les journalistes avec des experts. Quand un journaliste du Figaro cherche un expert SEO pour son article, et que vous répondez avec une citation pertinente, vous obtenez un backlink depuis un site DR 90+.',
+        content: 'Help A Reporter Out (HARO), Qwoted, Source Bottle, ces plateformes connectent les journalistes avec des experts. Quand un journaliste du Figaro cherche un expert SEO pour son article, et que vous répondez avec une citation pertinente, vous obtenez un backlink depuis un site DR 90+.',
       },
       {
         type: 'text',
